@@ -1,55 +1,25 @@
+**video link
+https://drive.google.com/file/d/1D4MkZbwjLCe_4CkQVVV1lHHgRoYm0HRI/view?usp=drivesdk
 
 
-📘 Title:
+# 📧 Email Assist – AI-Powered Communication Assistant
 
-AI-Powered Communication Assistant – email-assist
+**Email Assist** is an AI-powered tool designed to help organizations efficiently manage incoming support emails. It fetches emails from your Gmail account, filters support-related messages, analyzes sentiments, prioritizes urgent requests, and suggests context-aware responses using OpenAI’s GPT models.
 
-📘 Overview:
+---
 
-This project is designed to assist customer support teams by automating email retrieval, categorization, and response generation.
+## ✅ Features
 
-📘 Architecture:
+- Fetch and filter emails from Gmail using IMAP.
+- Detect support-related emails based on keywords like "Support", "Help", "Query", etc.
+- Display sender details, subject, email body, and time received.
+- Analyze sentiment (positive, neutral, negative).
+- Prioritize emails based on urgency.
+- Generate AI-based draft replies.
+- Simple and user-friendly dashboard built with React.
+- Secure configuration using environment variables.
 
-Frontend: Built using React. Fetches email data from the backend API and displays it.
+---
 
-Backend: Built using Python FastAPI. Connects to Gmail, retrieves emails via IMAP, and exposes an API.
+## 📂 Project Structure
 
-Data flow:
-
-User starts both backend and frontend.
-
-Emails are fetched from the Gmail inbox.
-
-Filtered emails are shown in the dashboard.
-
-Sentiment and priority analysis is performed before presenting results.
-
-📘 Approach:
-
-Use secure environment variables for credentials.
-
-Implement CORS to allow communication between frontend and backend.
-
-Use IMAP for retrieving emails.
-
-Present structured data to the user interface.
-
-📘 Challenges faced:
-
-Handling email parsing.
-
-Authentication with Gmail using App Password.
-
-Handling asynchronous API requests.
-
-4️⃣ Impact Section
-
-Explain how this tool can help businesses:
-
-📘 Impact:
-
-This assistant can transform customer support operations by:
-✔ Reducing manual workload: Automatically reads and categorizes emails.
-✔ Ensuring faster, empathetic responses: Prioritizes urgent emails and drafts replies using AI.
-✔ Extracting actionable insights: Highlights important data like contact details and sentiment.
-✔ Improving customer satisfaction: Reduces response times and offers personalized interactions.
